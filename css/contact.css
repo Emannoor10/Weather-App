@@ -1,0 +1,66 @@
+/* form */
+.space{
+    padding: 20px 50px 20px 20px;
+    background: #262936;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.span1,.span2{
+    font-size: 14px;
+}
+.span2{
+    color: white;
+}
+.space i{
+    font-size: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.map{
+    border-radius: 10px;
+   margin-left:120px;
+    width: 450px;
+    height: 350px;
+    background-color:#262936 ;
+}
+.info{
+ padding-top: 250px;
+margin: 5px;
+}
+.info i{
+    color: #009AD8;
+}
+.form input{
+    width: 45%;
+    border-radius:20px;
+    height: 45px;
+    background-color:#262936 ;
+    border: 2px solid #393c48;
+}
+.form textarea{
+    width: 90%;
+    border-radius:20px;
+    background-color:#262936 ;
+    border: 2px solid #393c48;
+}
+.form textarea:hover ,.form input:hover{
+    border: 2px solid #009AD8 ;  
+}
+.form button{
+    background-color: #009AD8;
+    border: 0; 
+    color: white;
+    border-radius: 20px;
+    height: 27px;
+    width: 80px;
+    margin-left:77%;
+
+}
+.form input:focus,
+.form textarea:focus {
+    outline: none;
+    box-shadow: none;}
